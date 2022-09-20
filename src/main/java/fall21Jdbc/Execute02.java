@@ -9,7 +9,7 @@ public class Execute02 {
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		
 		//On SQL Developer by typing "SHOW Connection" you can find the url
-		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521/orcl", "hr", "oracle");
+		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "hr", "hr");
 		
 		Statement st = con.createStatement();
 		

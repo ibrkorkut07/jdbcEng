@@ -37,7 +37,7 @@ public class Execute01 {
 		boolean result2 = st.execute(sql2);
 		System.out.println("execute() method returned: " + result2 + " for table altering");
 		
-		//3.Example: Drop worklers table
+		//3.Example: Drop workers table
 //		String sql3 = "DROP TABLE workers";
 //		boolean result3 = st.execute(sql3);
 //		System.out.println("execute() method returned: " + result3 + " for table dropping");
