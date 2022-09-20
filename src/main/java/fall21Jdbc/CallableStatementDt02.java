@@ -8,7 +8,7 @@ public class CallableStatementDt02 {
 		
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		
-		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@//localhost:1521/orcl", "hr", "oracle");
+		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@//localhost:1521:xe", "hr", "hr");
 		
 		Statement st  = con.createStatement();
 		
