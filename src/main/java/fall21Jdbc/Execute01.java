@@ -44,8 +44,6 @@ public class Execute01 {
 
 		//7.Step: Close the con, and st
 		con.close();
-		st.close();
-		
+		st.close();	
 	}
-
 }
