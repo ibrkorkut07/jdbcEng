@@ -30,5 +30,4 @@ public class CallableStatementDt02 {
 		con.close();
 		st.close();
 	}
-
 }
